@@ -25,7 +25,7 @@ setInterval(function(){
     if((characterTop > 480) || ((blockLeft < 20) && (blockLeft > -500) && ((cTop<holeTop)||(cTop>holeTop + 130)))){
         alert("Game over, Score "+ counter);
         character.style.top = 100 + "px"; 
-        counter = 0
+        counter = 0 - 1
     }
 }, 10);
 
